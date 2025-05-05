@@ -25,3 +25,14 @@ function factorialNum(a) {
 
 const answ = factorialNum(5)
 console.log(answ);
+
+
+function factorial(num) {
+    let answer = 1;
+    for (let i = 2; i <= num; i++) {
+        answer *= i;
+    }
+    return answer;
+}
+
+console.log(factorial(7));
